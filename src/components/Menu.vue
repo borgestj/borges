@@ -1,13 +1,36 @@
 <template>
   <div id="menu">
-      <img class="image-menu" src="@/assets/image/header.png">
-      <button class="btn-menu">
-          <img src="@/assets/image/menu.svg">
-      </button>
+    <img class="image-menu" src="@/assets/image/header.png">
+    <button v-b-toggle.sidebar-right class="btn-menu">
+        <img src="@/assets/image/menu.svg">
+    </button>
+    <div>
+      <b-sidebar id="sidebar-right" right shadow>
+        <div class="px-3 py-2 submenu">
+          <router-link to="/"><p>Home.</p></router-link>
+          <router-link to="/projects"><p>Projects.</p></router-link>
+          <router-link to="/summary"><p>Summary.</p></router-link>
+
+          <div class="socials">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <i class="icon-instagram"></i>
+            </a>    
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <i class="icon-linkedin"></i>
+            </a>    
+          </div>
+        </div>
+      </b-sidebar>
+    </div>
   </div>
 </template>
 
 <script>
+import Vue from 'vue'
+import { SidebarPlugin } from 'bootstrap-vue'
+
+Vue.use(SidebarPlugin)
+
 export default {
 
 }
@@ -30,10 +53,35 @@ export default {
             height: 45px;
             top: 30px;
             right: 30px;
-            z-index: 999;
+            z-index: 999999999999;
             background: #000;
             box-shadow: 3px 3px 5px #000, -3px -3px 5px #252525;
             border-radius: 12px;
+        }
+
+        #sidebar-right {
+            width: 100%;
+            opacity: 0.6;
+
+            .submenu {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                margin-top: 40px;
+                margin-left: 10px;
+
+                a {
+                    color: #fff;
+                    font-size: 26pt;
+                    font-weight: 800;
+                    opacity: 1;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: #CA1357;
+                    }
+                }
+            }
         }
 
     }
@@ -53,6 +101,19 @@ export default {
                 &:hover {
                     box-shadow: inset 3px 3px 5px #000, inset -3px -3px 5px #252525;
                     transform: scale(.98);
+                }
+            }
+
+            #sidebar-right {
+                width: 50%;
+    
+                .submenu {
+                    margin-top: 100px;
+                    margin-left: 20px;
+    
+                    a {
+                        font-size: 32pt;
+                    }
                 }
             }
         }
