@@ -24,7 +24,6 @@ export default {
   width: 100%;
   min-height: 300px;
   position: relative;
-  background-color: #000;
   display: flex;
 
   .vertical-button {

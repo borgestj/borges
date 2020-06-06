@@ -23,7 +23,7 @@ export default {
 * {
   padding:0;
   margin:0;
-  background: #000;
+  background: #151515;
 }
 
 #app {

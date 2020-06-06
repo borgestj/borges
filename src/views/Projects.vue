@@ -1,16 +1,16 @@
 <template>
   <div class="projects">
-    <Carousel />
+    <Cards />
   </div>
 </template>
 
 <script>
-import Carousel from '../components/Carousel.vue'
+import Cards from '../components/Cards.vue'
 
 export default {
   name: 'Projects',
   components: {
-    Carousel
+    Cards
   }
 }
 </script>

@@ -12,12 +12,18 @@
           <router-link to="/resume"><p>Summary.</p></router-link>
 
           <div class="socials">
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <i class="icon-instagram"></i>
-            </a>    
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <i class="icon-linkedin"></i>
-            </a>    
+            <a href="https://github.com/borgestj" target="_blank" rel="noopener noreferrer">
+              <i class="icon fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/borgestj/" target="_blank" rel="noopener noreferrer">
+              <i class="icon fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/borgestij/" target="_blank" rel="noopener noreferrer">
+              <i class="icon fab fa-instagram"></i>
+            </a>
+            <a href="https://twitter.com/jsolotj" target="_blank" rel="noopener noreferrer">
+              <i class="icon fab fa-twitter-square"></i>
+            </a>
           </div>
         </div>
       </b-sidebar>
@@ -84,6 +90,18 @@ export default {
                         color: #CA1357;
                     }
                 }
+
+                .socials {
+                    .icon {
+                        font-size: 48px;
+                        color: #fff;
+                        margin: 100px 20px 10px;
+                    }
+
+                    .icon:first-child {
+                        margin-left: 0;
+                    }
+                }
             }
         }
     }
@@ -115,6 +133,13 @@ export default {
     
                     a {
                         font-size: 32pt;
+                    }
+
+                    .socials {
+                        i {
+                            width: 30px;
+                            margin: 10px;
+                        }
                     }
                 }
             }
