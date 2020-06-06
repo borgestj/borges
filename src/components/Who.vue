@@ -2,9 +2,13 @@
   <div class="name">
     <div class="container">
         <b-button to="/projects" class="vertical-button">Projects</b-button>
-        <p class="fist-name">Roberto</p>
-        <strong class="last-name">Borges</strong>
+        <h2>Roberto<br>
+          <strong class="last-name">Borges</strong>
+        </h2>
         <p class="develop">Develop Front-End</p>
+        <p class="about_paragraph">
+          Analyzing, understanding the problem, and prioritizing what is most important when developing quality code provides efficiency and agility in creating a project.
+        </p>
     </div>
   </div>
 </template>
@@ -27,7 +31,7 @@ export default {
     width: 150px;
     position: absolute;
     top: 24%;
-    left: -35px;
+    left: -15px;
     transform: rotate(-90deg);
     border: none;
     border-radius: 15px;
@@ -41,17 +45,18 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin: 20px 0;
 
-    .fist-name {
+    h2 {
       font-size: 45pt;
       color: #fff;
       margin: 0;
-    }
-
-    .last-name {
-      font-size: 51pt;
-      color: #A6134A;
-      margin-left: 90px;
+      
+      .last-name {
+        font-size: 51pt;
+        color: #A6134A;
+        margin-left: 90px;
+      }
     }
 
     .develop {
@@ -60,23 +65,35 @@ export default {
         margin-top: 20px;
         margin-left: 50px;
     }
+
+    .about_paragraph {
+      max-width: 510px;
+      width: 100%;
+      font-size: 19pt;
+      text-align: left;
+      color: #fff;
+      padding: 10px;
+      box-sizing: border-box;
+    }
   }
 }
 
 @media (min-width: 1024px) {
-  .vertical-button {
-      &:hover {
-        color: #A6134A !important;
-        background-color: #151515 !important;
-        border: none !important;
-        box-shadow: inset 3px 3px 5px #000, inset -3px -3px 5px #252525;
-        transform: otate(-90deg), scale(.98);
+  .name {
+    .vertical-button {
+        &:hover {
+          color: #A6134A !important;
+          background-color: #151515 !important;
+          border: none !important;
+          box-shadow: inset 3px 3px 5px #000, inset -3px -3px 5px #252525;
+          transform: otate(-90deg), scale(.98);
+      }
     }
-  }
 
-  .container {
-    text-align: start;
-    margin-left: 70px;
+    .container {
+      text-align: start;
+      margin: 20px 0 20px 100px;
+    }
   }
 }
 </style>

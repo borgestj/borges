@@ -1,22 +1,22 @@
 <template>
-  <div class="home">
-    <Who />
+  <div class="resume">
+    <Summary />
   </div>
 </template>
 
 <script>
-import Who from '../components/Who.vue'
+import Summary from '../components/Summary.vue'
 
 export default {
-  name: 'Home',
+  name: 'Resume',
   components: {
-    Who
+    Summary
   }
 }
 </script>
 
 <style lang="scss">
-.home {
+.resume {
   max-height: 100vh;
   height: 100%;
 }

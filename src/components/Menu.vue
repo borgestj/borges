@@ -9,7 +9,7 @@
         <div class="px-3 py-2 submenu">
           <router-link to="/"><p>Home.</p></router-link>
           <router-link to="/projects"><p>Projects.</p></router-link>
-          <router-link to="/summary"><p>Summary.</p></router-link>
+          <router-link to="/resume"><p>Summary.</p></router-link>
 
           <div class="socials">
             <a href="#" target="_blank" rel="noopener noreferrer">
@@ -41,11 +41,12 @@ export default {
         display: flex;
         align-items: baseline;
         justify-content: flex-end;
-        height: 300px;
+        max-height: 200px;
+        height: 100%;
 
         .image-menu {
             width: 100%;
-            max-width: 360px;
+            max-width: 200px;
         }
 
         .btn-menu {
@@ -94,10 +95,10 @@ export default {
             }
 
             .btn-menu {
-                width: 75px;
-                height: 65px;
-                top: 60px;
-                right: 120px;
+                width: 65px;
+                height: 55px;
+                top: 20px;
+                right: 60px;
                 
                 &:hover {
                     box-shadow: inset 3px 3px 5px #000, inset -3px -3px 5px #252525;
