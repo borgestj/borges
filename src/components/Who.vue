@@ -1,16 +1,18 @@
 <template>
-  <div class="name">
-    <div class="container">
-        <b-button to="/projects" class="vertical-button">Projects</b-button>
-        <h2>Roberto<br>
-          <strong class="last-name">Borges</strong>
-        </h2>
-        <p class="develop">Develop Front-End</p>
-        <p class="about_paragraph">
-          Analyzing, understanding the problem, and prioritizing what is most important when developing quality code provides efficiency and agility in creating a project.
-        </p>
+  <transition name="fade">
+    <div class="name">
+        <div class="container">
+            <b-button to="/projects" class="vertical-button">Projects</b-button>
+            <h2>Roberto<br>
+              <strong class="last-name">Borges</strong>
+            </h2>
+            <p class="develop">Develop Front-End</p>
+            <p class="about_paragraph">
+              Analyzing, understanding the problem, and prioritizing what is most important when developing quality code provides efficiency and agility in creating a project.
+            </p>
+        </div>
     </div>
-  </div>
+  </transition>
 </template>
 
 <script>
@@ -20,17 +22,26 @@ export default {
 </script>
 
 <style lang="scss">
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  transition: opacity 8s;
+}
+
 .name {
   width: 100%;
   min-height: 300px;
   position: relative;
   display: flex;
 
+
   .vertical-button {
     width: 150px;
     position: absolute;
     top: 24%;
-    left: -15px;
+    left: -23px;
     transform: rotate(-90deg);
     border: none;
     border-radius: 15px;
@@ -50,6 +61,7 @@ export default {
       font-size: 45pt;
       color: #fff;
       margin: 0;
+      line-height: 1.1;
       
       .last-name {
         font-size: 51pt;

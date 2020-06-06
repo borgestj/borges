@@ -2,7 +2,7 @@
   <div id="menu">
     <img class="image-menu" src="@/assets/image/header.png">
     <b-button v-b-toggle.sidebar-right class="btn-menu">
-        <img src="@/assets/image/menu.svg">
+        <div class="btn-menu__burguer"></div>
     </b-button>
     <div>
       <b-sidebar id="sidebar-right" right shadow>
@@ -66,6 +66,51 @@ export default {
             border-radius: 12px;
             background-color: #151515;
             box-shadow: 3px 3px 5px #000, -3px -3px 5px #252525;
+
+            .btn-menu__burguer {
+                width: 32px;
+                height: 4px;
+                background: #fff;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(255,101,47,.2);
+                transition: all .5s ease-in-out;
+                margin-left: 1px;
+            }
+
+            .btn-menu__burguer:before,
+            .btn-menu__burguer:after {
+                content: '';
+                position: absolute;
+                width: 32px;
+                height: 4px;
+                background: #fff;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(255,101,47,.2);
+                transition: all .5s ease-in-out;
+            }
+
+            .btn-menu__burguer:before {
+                transform: translateY(-10px);
+                margin-left: -16px;
+            }
+
+            .btn-menu__burguer:after {
+                transform: translateY(10px);
+                margin-left: -16px;
+            }
+        }
+
+        /* ANIMATION */
+        .btn-menu.not-collapsed .btn-menu__burguer {
+            transform: translateX(-50px);
+            background: transparent;
+            box-shadow: none;
+        }
+        .btn-menu.not-collapsed .btn-menu__burguer:before {
+            transform: rotate(45deg) translate(35px, -35px);
+        }
+        .btn-menu.not-collapsed .btn-menu__burguer:after {
+            transform: rotate(-45deg) translate(35px, 35px);
         }
 
         #sidebar-right {
@@ -125,6 +170,28 @@ export default {
                 &:hover {
                     box-shadow: inset 3px 3px 5px #000, inset -3px -3px 5px #252525;
                     transform: scale(.98);
+                }
+
+                .btn-menu__burguer {
+                    width: 30px;
+                    height: 4px;
+                    margin-left: 7px;
+                }
+
+                .btn-menu__burguer:before,
+                .btn-menu__burguer:after {
+                    width: 30px;
+                    height: 4px;
+                }
+
+                .btn-menu__burguer:before {
+                    transform: translateY(-11px);
+                    margin-left: -15px;
+                }
+
+                .btn-menu__burguer:after {
+                    transform: translateY(11px);
+                    margin-left: -15px;
                 }
             }
 
