@@ -1,13 +1,17 @@
 <template>
   <div class="home">
-
+    <Who />
   </div>
 </template>
 
 <script>
+import Who from '../components/Who.vue'
 
 export default {
   name: 'Home',
+  components: {
+    Who
+  }
 }
 </script>
 
