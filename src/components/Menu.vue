@@ -70,7 +70,11 @@ export default {
 
         #sidebar-right {
             width: 100%;
-            opacity: 0.6;
+            opacity: 0.9;
+
+            .b-sidebar-header {
+                display: none;
+            }
 
             .submenu {
                 display: flex;
@@ -125,6 +129,7 @@ export default {
             }
 
             #sidebar-right {
+                opacity: 0.7;
                 width: 50%;
     
                 .submenu {
