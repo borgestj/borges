@@ -44,7 +44,8 @@ export default {
         height: 300px;
 
         .image-menu {
-            width: 360px;
+            width: 100%;
+            max-width: 360px;
         }
 
         .btn-menu {

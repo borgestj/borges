@@ -62,4 +62,21 @@ export default {
     }
   }
 }
+
+@media (min-width: 1024px) {
+  .vertical-button {
+      &:hover {
+        color: #A6134A !important;
+        background-color: #151515 !important;
+        border: none !important;
+        box-shadow: inset 3px 3px 5px #000, inset -3px -3px 5px #252525;
+        transform: otate(-90deg), scale(.98);
+    }
+  }
+
+  .container {
+    text-align: start;
+    margin-left: 70px;
+  }
+}
 </style>
