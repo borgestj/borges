@@ -19,5 +19,6 @@ export default {
 .resume {
   max-height: 100vh;
   height: 100%;
+  overflow: auto;
 }
 </style>

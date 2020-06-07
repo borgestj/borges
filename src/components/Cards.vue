@@ -29,7 +29,7 @@
             <strong class="title">Fácil Persianas</strong>
             <p class="about">Project using Magento 2, PHP and jQuery</p>
             <b-button href="https://www.facilpersianas.com.br" class="list-button" target="_blank" rel="noopener noreferrer">
-                <i class="icon fab fa-github"></i>
+                <i class="far fa-eye"></i>
             To view</b-button>
         </div>
         <div class="project-list">
@@ -37,7 +37,7 @@
             <strong class="title">Via Inox</strong>
             <p class="about">Project using Magento 2, PHP and jQuery</p>
             <b-button href="https://www.viainox.com" class="list-button" target="_blank" rel="noopener noreferrer">
-                <i class="icon fab fa-github"></i>
+                <i class="far fa-eye"></i>
             To view</b-button>
         </div>
         <div class="project-list">
@@ -45,7 +45,7 @@
             <strong class="title">B2C Uatt?</strong>
             <p class="about">Project using VueJs on the Front-end, consuming API. Responsible for creating new features.</p>
             <b-button href="https://www.uatt.com.br" class="list-button" target="_blank" rel="noopener noreferrer">
-                <i class="icon fab fa-github"></i>
+                <i class="far fa-eye"></i>
             To view</b-button>
         </div>
         <div class="project-list">
@@ -53,7 +53,7 @@
             <strong class="title">Institucional Uatt?</strong>
             <p class="about">Project using VueJs and Bootstrap.</p>
             <b-button href="https://institucional.uatt.com.br" class="list-button" target="_blank" rel="noopener noreferrer">
-                <i class="icon fab fa-github"></i>
+                <i class="far fa-eye"></i>
             To view</b-button>
         </div>
     </div>

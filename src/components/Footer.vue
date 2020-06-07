@@ -12,11 +12,30 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 100px;
-    
+    max-height: 70px;
+    height: 100%;
+
     .image-footer {
       left: 0px;
       position: absolute;
+      max-width: 1024px;
+      width: 90%;
+      height: 100%;
+    }
+
+    .created {
+      background: transparent;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      position: absolute;
+      left: 15px;
+      bottom: 15px;
+      
+      strong {
+        background: transparent;
+      }
     }
   }
 
@@ -34,21 +53,6 @@
         position: absolute;
         height: 100%;
         width: 100%;
-      }
-
-      .created {
-        background: transparent;
-        font-size: 14px;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        position: absolute;
-        left: 15px;
-        bottom: 15px;
-
-        strong {
-          background: transparent;
-        }
       }
     }
   }

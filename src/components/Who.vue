@@ -35,17 +35,19 @@ export default {
   min-height: 300px;
   position: relative;
   display: flex;
+  margin-bottom: 70px;
+  overflow: auto;
 
 
   .vertical-button {
     width: 150px;
     position: absolute;
-    top: 24%;
-    left: -23px;
+    top: 23%;
+    left: -30px;
     transform: rotate(-90deg);
     border: none;
     border-radius: 15px;
-    padding: 15px 40px;
+    padding: 10px 40px;
     color: #A6134A;
     background-color: #151515;
     box-shadow: 3px 3px 5px #000, -3px -3px 5px #252525;
@@ -60,13 +62,13 @@ export default {
     h2 {
       font-size: 45pt;
       color: #fff;
-      margin: 0;
+      margin-left: 60px;
       line-height: 1.1;
       
       .last-name {
         font-size: 51pt;
         color: #A6134A;
-        margin-left: 90px;
+        margin-left: 55px;
       }
     }
 
@@ -74,7 +76,7 @@ export default {
         font-size: 16pt;
         color: #fff;
         margin-top: 20px;
-        margin-left: 50px;
+        margin-left: 65px;
     }
 
     .about_paragraph {

@@ -18,6 +18,12 @@ export default {
 
 <style lang="scss">
 .projects {
+  padding: 10px 5% 40px 5%;
+  margin-bottom: 70px;
+  max-height: 100vh;
+  height: 100%;
+  overflow: auto;
+
   h1 {
     max-width: 1200px;
     font-size: 40pt;
@@ -26,6 +32,5 @@ export default {
     color: #fff;
   }
 
-  height: calc(100vh - 400px);
 }
 </style>
