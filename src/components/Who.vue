@@ -6,7 +6,7 @@
             <h2>Roberto<br>
               <strong class="last-name">Borges</strong>
             </h2>
-            <p class="develop">Develop Front-End</p>
+            <p class="develop">Front-End developer</p>
             <p class="about_paragraph">
               Analyzing, understanding the problem, and prioritizing what is most important when developing quality code provides efficiency and agility in creating a project.
             </p>
@@ -97,7 +97,7 @@ export default {
           background-color: #151515 !important;
           border: none !important;
           box-shadow: inset 3px 3px 5px #000, inset -3px -3px 5px #252525;
-          transform: otate(-90deg), scale(.98);
+          transform: rotate(-90deg), scale(.98);
       }
     }
 

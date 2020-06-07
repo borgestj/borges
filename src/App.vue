@@ -30,7 +30,6 @@ export default {
   font-family: 'Exo 2', sans-serif, Arial;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   line-height: 1;
   color: #2c3e50;
 }

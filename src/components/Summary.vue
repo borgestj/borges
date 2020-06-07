@@ -2,8 +2,8 @@
   <div class="main">
     <h1>Summary</h1>
     <h2>Pesonal Info</h2>
-    <hr />
-    <img class="cv-pic" src="img/foto4.jpg" alt="Foto Roberto" />
+    <hr class="line" />
+    <img class="cv-pic" src="@/assets/image/foto.jpg" alt="Foto Roberto" />
 
     <h3>Name:</h3>
 
@@ -23,7 +23,7 @@
     <p>English - Basic Level</p>
 
     <h2>About me</h2>
-    <hr />
+    <hr class="line" />
     <p>
       Analyzing, understanding the problem, and prioritizing what is most important when developing quality code provides
       efficiency and agility in creating a project. So my focus is to promote practices that influence other developers to
@@ -35,7 +35,7 @@
     <p>Graduated from Fael College in Systems Analysis and Development.</p>
 
     <h2>EDUCATION</h2>
-    <hr />
+    <hr class="line" />
 
     <h3>2016-2019</h3>
 
@@ -46,14 +46,14 @@
     <p>Programming of computers in Java - SENAI São José/SC</p>
 
     <h2>SKILLS</h2>
-    <hr />
+    <hr class="line" />
 
     <h3>WEB DEVELOPMENT & PROGRAMMING</h3>
 
     <p>HTML / CSS / Bootstrap / LESS / SASS / Javascript / PHP / SQL / MAGENTO2 / VUE</p>
 
-    <h2>WORK EXPERIENCE</h2>
-    <hr />
+    <h2>Work Experiences</h2>
+    <hr class="line" />
 
     <h3>2020-PRESENT</h3>
 
@@ -75,8 +75,8 @@
 
     <p>Technical at OI Telecom - FLORIANÓPOLIS - SANTA CATARINA</p>
 
-    <h2>Contact</h2>
-    <hr />
+    <h2>Contacts</h2>
+    <hr class="line" />
 
     <p>E-mail: borges.tj@gmail.com</p>
     <p>Phone: (48) 99176-8501</p>
@@ -89,6 +89,66 @@ export default {};
 
 <style lang="scss">
 .main {
-  margin-bottom: 110px;
+  padding: 10px 5% 40px 5%;
+  margin-bottom: 70px;
+  
+  .line {
+    border-top: 1px solid #e5e5e5;
+  }
+
+  .cv-pic {
+      float: none;
+      width: 100%;
+      margin-right: 0px;
+      margin-top: 5px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+  }
+
+  h1 {
+      color: #fff;
+      font-size: 21px;
+      text-transform: uppercase;
+      font-weight: 700;
+  }
+
+  h2 {
+      color: #FD468B;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: normal;
+      margin-top: 40px;
+  }
+
+  h3 {
+      color: #FD468B;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+  }
+
+  p {
+      color: #fff;
+      font-size: 20px;
+      font-weight: 600; 
+      text-align: justify;
+      text-decoration: none;
+  }
 }
+
+@media (min-width: 1024px) {
+  .main {
+    padding: 80px 180px 80px 100px;
+
+    .cv-pic {
+      float: left;
+      width: 200px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      border-radius: 20px;
+    }
+  }
+}
+
+
 </style>
