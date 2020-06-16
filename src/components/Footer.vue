@@ -2,7 +2,7 @@
   <div class="footer">
     <img class="image-footer" src="@/assets/image/footer.png">
     <div class="created">
-      <strong>Created and developed by me</strong>
+      <strong>Created and developed by <a href="https://github.com/borgestj" target=”_blank” rel=”noopener noreferrer”>me</a></strong>
     </div>
   </div>
 </template>
