@@ -145,6 +145,9 @@ export default {
                         font-size: 48px;
                         color: #fff;
                         margin: 100px 20px 10px;
+                        &.fa-github:hover,&.fa-linkedin:hover,&.fa-instagram:hover,&.fa-twitter-square:hover{
+                            color: #A6134A;
+                        }
                     }
 
                     .icon:first-child {
