@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <h1>Summary</h1>
-    <h2>Pesonal Info</h2>
+    <h2>Personal Info</h2>
     <hr class="line" />
     <img class="cv-pic" src="@/assets/image/foto.jpg" alt="Foto Roberto" />
 
