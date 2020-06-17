@@ -78,8 +78,8 @@
     <h2>Contacts</h2>
     <hr class="line" />
 
-    <p>E-mail: borges.tj@gmail.com</p>
-    <p>Phone: (48) 99176-8501</p>
+    <p>E-mail: <a href="mailto:borges.tj@gmail.com">borges.tj@gmail.com</a></p>
+    <p>Phone: <a href="tel:+48991768501">(48) 99176-8501</a></p>
   </div>
 </template>
 
