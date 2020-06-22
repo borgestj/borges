@@ -7,7 +7,8 @@ Vue.use(VueRouter)
 const routes: Array<RouteConfig> = [
   { path: '/', name: 'Home', component: Home},
   { path: '/projects', name: 'Projects', component: () => import(/* webpackChunkName: "projects" */ '../views/Projects.vue') },
-  { path: '/resume', name: 'Resume', component: () => import(/* webpackChunkName: "projects" */ '../views/Resume.vue') }
+  { path: '/resume', name: 'Resume', component: () => import(/* webpackChunkName: "projects" */ '../views/Resume.vue') },
+  { path: "*", redirect: "/" },
 ]
 
 const router = new VueRouter({
