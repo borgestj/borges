@@ -58,11 +58,11 @@
     <h2>Work Experiences</h2>
     <hr class="line" />
 
-    <h3>2020-2020</h3>
+    <h3>2021-PRESENT</h3>
 
     <p>Front-end Developer React at Askblue - LISBOA - PORTUGAL</p>
 
-    <h3>2021-PRESENT</h3>
+    <h3>2020-2021</h3>
 
     <p>
       Front-end Developer React at Condofy - RIO DE JANEIRO - RIO DE JANEIRO
