@@ -2,6 +2,20 @@
   <div class="cards">
     <div class="project-list">
       <hr class="line" />
+      <strong class="title">Systêxtil</strong>
+      <p class="about">Development front and back-end using NextJS and Node</p>
+      <b-button
+        href="https://www.systextil.com.br"
+        class="list-button"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="far fa-eye"></i>
+        To view</b-button
+      >
+    </div>
+    <div class="project-list">
+      <hr class="line" />
       <strong class="title">Monster Killer</strong>
       <p class="about">Created using VueJs and JavaScript</p>
       <b-button
@@ -79,15 +93,6 @@
         Project using VueJs on the Front-end, consuming API. Responsible for
         creating new features.
       </p>
-      <b-button
-        href="https://www.uatt.com.br"
-        class="list-button"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i class="far fa-eye"></i>
-        To view</b-button
-      >
     </div>
   </div>
 </template>
