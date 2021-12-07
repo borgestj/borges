@@ -15,7 +15,7 @@
 
     <h3>Residence:</h3>
 
-    <p>São João Batista, Santa Catarina - Brasil</p>
+    <p>Itajaí, Santa Catarina - Brasil</p>
 
     <h3 style="clear: left;">Languages:</h3>
 
@@ -25,19 +25,20 @@
     <h2>About me</h2>
     <hr class="line" />
     <p>
-      Analyzing, understanding the problem, and prioritizing what is most important when developing quality code provides
-      efficiency and agility in creating a project. So my focus is to promote practices that influence other developers to
-      create ever better projects.
+      Analyzing, understanding the problem, and prioritizing what is most
+      important when developing quality code provides efficiency and agility in
+      creating a project. So my focus is to promote practices that influence
+      other developers to create ever better projects.
     </p>
 
-    <p>Currently Working as Front-End Developer at Uatt? Company.</p>
+    <p>Currently Working as Front-End Developer at AskBlue? Company.</p>
 
     <p>Graduated from Fael College in Systems Analysis and Development.</p>
 
     <h2>EDUCATION</h2>
     <hr class="line" />
 
-    <h3>2016-2019</h3>
+    <h3>2017-2019</h3>
 
     <p>Information Systems - Fael University Tijucas/SC</p>
 
@@ -50,12 +51,24 @@
 
     <h3>WEB DEVELOPMENT & PROGRAMMING</h3>
 
-    <p>HTML / CSS / Bootstrap / LESS / SASS / Javascript / PHP / SQL / MAGENTO2 / VUE</p>
+    <p>
+      REACT / JAVASCRIPT / MAGENTO 2 / VUE / HTML / CSS
+    </p>
 
     <h2>Work Experiences</h2>
     <hr class="line" />
 
-    <h3>2020-PRESENT</h3>
+    <h3>2020-2020</h3>
+
+    <p>Front-end Developer React at Askblue - LISBOA - PORTUGAL</p>
+
+    <h3>2021-PRESENT</h3>
+
+    <p>
+      Front-end Developer React at Condofy - RIO DE JANEIRO - RIO DE JANEIRO
+    </p>
+
+    <h3>2020-2020</h3>
 
     <p>Front-end Developer Vue at Uatt? - SÃO JOSÉ - SANTA CATARINA</p>
 
@@ -69,7 +82,10 @@
 
     <h3>2010-2015</h3>
 
-    <p>Partner and Technical at Ihnove Telecom - SÃO JOÃO BATISTA - SANTA CATARINA</p>
+    <p>
+      Partner and Technical at Ihnove Telecom - SÃO JOÃO BATISTA - SANTA
+      CATARINA
+    </p>
 
     <h3>2005-2010</h3>
 
@@ -91,48 +107,48 @@ export default {};
 .main {
   padding: 10px 5% 40px 5%;
   margin-bottom: 70px;
-  
+
   .line {
     border-top: 1px solid #e5e5e5;
   }
 
   .cv-pic {
-      float: none;
-      width: 100%;
-      margin-right: 0px;
-      margin-top: 5px;
-      margin-bottom: 20px;
-      border-radius: 8px;
+    float: none;
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 8px;
   }
 
   h1 {
-      color: #fff;
-      font-size: 21px;
-      text-transform: uppercase;
-      font-weight: 700;
+    color: #fff;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: 700;
   }
 
   h2 {
-      color: #FD468B;
-      font-size: 16px;
-      text-transform: uppercase;
-      font-weight: normal;
-      margin-top: 40px;
+    color: #fd468b;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-top: 40px;
   }
 
   h3 {
-      color: #FD468B;
-      font-size: 12px;
-      font-weight: 600;
-      text-transform: uppercase;
+    color: #fd468b;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
   }
 
   p {
-      color: #fff;
-      font-size: 20px;
-      font-weight: 600; 
-      text-align: justify;
-      text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: justify;
+    text-decoration: none;
   }
 }
 
@@ -149,6 +165,4 @@ export default {};
     }
   }
 }
-
-
 </style>
