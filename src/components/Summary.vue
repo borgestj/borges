@@ -20,7 +20,7 @@
     <h3 style="clear: left;">Languages:</h3>
 
     <p>Portuguese (Native)</p>
-    <p>English - Basic Level</p>
+    <p>English - B1</p>
 
     <h2>About me</h2>
     <hr class="line" />
@@ -31,16 +31,19 @@
       other developers to create ever better projects.
     </p>
 
-    <p>Currently Working as Front-End Developer at AskBlue? Company.</p>
+    <p>Currently Working as Front-End Developer at AskBlue Company.</p>
 
-    <p>Graduated from Fael College in Systems Analysis and Development.</p>
+    <p>
+      Graduated from Faculdade Educacional da Lapa in Analysis and Systems
+      Development.
+    </p>
 
     <h2>EDUCATION</h2>
     <hr class="line" />
 
     <h3>2017-2019</h3>
 
-    <p>Information Systems - Fael University Tijucas/SC</p>
+    <p>Analysis and Systems Development - Faculdade Educacional da Lapa</p>
 
     <h3>2007-2009</h3>
 
@@ -60,12 +63,12 @@
 
     <h3>2021-PRESENT</h3>
 
-    <p>Front-end Developer React at Askblue - LISBOA - PORTUGAL</p>
+    <p>Software Engineer React at Askblue - LISBOA - PORTUGAL</p>
 
     <h3>2020-2021</h3>
 
     <p>
-      Front-end Developer React at Condofy - RIO DE JANEIRO - RIO DE JANEIRO
+      IT Consultant in React at Condofy - RIO DE JANEIRO - RIO DE JANEIRO
     </p>
 
     <h3>2020-2020</h3>
@@ -79,17 +82,6 @@
     <h3>2015-2019</h3>
 
     <p>Helpdesk at ASSEINFO - TIJUCAS - SANTA CATARINA</p>
-
-    <h3>2010-2015</h3>
-
-    <p>
-      Partner and Technical at Ihnove Telecom - SÃO JOÃO BATISTA - SANTA
-      CATARINA
-    </p>
-
-    <h3>2005-2010</h3>
-
-    <p>Technical at OI Telecom - FLORIANÓPOLIS - SANTA CATARINA</p>
 
     <h2>Contacts</h2>
     <hr class="line" />
