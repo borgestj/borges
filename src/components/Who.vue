@@ -8,7 +8,7 @@
             </h2>
             <p class="develop">Front-End developer</p>
             <p class="about_paragraph">
-              Analyzing, understanding the problem, and prioritizing what is most important when developing quality code provides efficiency and agility in creating a project.
+              👋 Hello! I'm a passionate Senior Front-End Developer with a love for technology and music. I'm constantly updating my skills to stay at the forefront of the ever-evolving tech world. When I'm not coding, you'll find me experimenting with new recipes in the kitchen to delight my family.
             </p>
         </div>
     </div>
