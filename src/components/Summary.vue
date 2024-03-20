@@ -25,10 +25,10 @@
     <h2>About me</h2>
     <hr class="line" />
     <p>
-      Analyzing, understanding the problem, and prioritizing what is most
-      important when developing quality code provides efficiency and agility in
-      creating a project. So my focus is to promote practices that influence
-      other developers to create ever better projects.
+      👋 Hello! I'm a passionate Senior Front-End Developer with a love for technology and music. 
+      I'm constantly updating my skills to stay at the forefront of the ever-evolving tech world. 
+      When I'm not coding, you'll find me experimenting with new recipes in the kitchen to delight 
+      my family.
     </p>
 
     <p>Currently Working as Front-End Developer at AskBlue Company.</p>
@@ -55,7 +55,7 @@
     <h3>WEB DEVELOPMENT & PROGRAMMING</h3>
 
     <p>
-      REACT / JAVASCRIPT / MAGENTO 2 / VUE / HTML / CSS
+      JAVASCRIPT / React / VUE / UMBRACO / HTML / CSS
     </p>
 
     <h2>Work Experiences</h2>
@@ -63,7 +63,7 @@
 
     <h3>2021-PRESENT</h3>
 
-    <p>Software Engineer React at Askblue - LISBOA - PORTUGAL</p>
+    <p>Senior Software Engineer React at Askblue - LISBOA - PORTUGAL</p>
 
     <h3>2020-2021</h3>
 
